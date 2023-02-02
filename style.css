@@ -126,6 +126,7 @@
 }
 
 .jumbotron .text h3{
+	color: #000000;
 	text-transform: capitalize;
 	font-family: var(--poppins);
 	font-size: 24px;
@@ -243,41 +244,6 @@
 #skills .container-fluid .gambar-skills .col-lg-3 img:hover{
 	filter: invert(15%);
 }
-/*Promise*/
-#promise{
-	padding: 4rem 0;
-	background-image: url(img/THINGS.png);
-	background-size: cover;
-}
-.promise-title h1{
-	text-transform: capitalize;
-	font-family: var(--abril);
-	font-size: 50px;
-	text-align: left;
-	padding-bottom: 2rem;
-}
-.promise-title span{
-	color: var(--purple);
-}
-.datar-promise .isi-card{
-	padding-bottom: 2rem;
-}
-#promise .card{
-	border: 3px solid var(--lightpurple);
-	padding: 1rem 0.6rem 2rem 0.6rem;
-	font-family: var(--poppins);
-	width: 35rem;
-}
-#promise .card-title{
-	font-size: 28px;
-	font-weight: bold;
-	text-transform: capitalize;
-}
-#promise .card-text{
-	font-size: 18px;
-	font-weight: 400;
-	color: var(--purple)
-}
 
 /*Testimonial*/
 #testimonial{
@@ -375,6 +341,7 @@ footer{
 		position: absolute;
 	}
 	.jumbotron .text h2{
+		color: #000000;
 		text-transform: uppercase;
 		font-family: var(--lato);
 		font-size: 30px;
