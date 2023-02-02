@@ -179,8 +179,8 @@
 .about-img{
 	padding-top: 9rem;
 }
-/*project*/
-#project{
+/*CV*/
+#cv{
 	padding: 5rem 0;
 	background-image: url(img/back.png);
 	background-size: cover
@@ -201,12 +201,12 @@
 	top: 45%;
 	right: 5%;
 }
-.title-project h1{
+.title-cv h1{
 	font-family: var(--abril);
 	font-size: 50px;
 	padding-bottom: 3rem;
 }
-.title-project h1:after{
+.title-cv h1:after{
 	content: '';
 	display: block;
 	border-bottom: 7px solid var(--purple);
@@ -214,8 +214,65 @@
 	padding-bottom: 9px;
 	margin-bottom: -9px;
 }
-.title-project span{
+.title-cv span{
 	color: var(--purple);
+}
+fieldset{
+    width: 100%;
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 1300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.fieldset-cover{
+    padding: 10px;
+}
+legend{
+	width: 20%;
+    font-size: 20px;
+    margin-left: 30px;
+    padding: 10px;
+    letter-spacing: 3px;
+    border: 2px solid var(--lightpurple);
+    color: white;
+    background-color: var(--lightpurple);
+    font-family: 'Righteous', monospace;
+    border-radius: 10px;
+}
+.per-detail, .work-detail{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    margin: 10px;
+}
+.edu-detail{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+.per-detail .edu-detail .work-detail, th{
+    text-align:left;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Kelly Slab';
+    letter-spacing: 3px;
+}
+.per-detail .edu-detail .work-detail, td{
+    font-size: 18px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Baloo Tamma', sans-serif;
+}
+caption{
+    font-size: 20px;
+    float: left;
+    margin-left: 10%;
+    font-family: 'kelly slab', monospace;
+    font-weight: bold;
+    color:darkgreen;
 }
 
 /*skills&toools*/
