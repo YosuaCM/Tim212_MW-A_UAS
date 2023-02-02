@@ -136,7 +136,7 @@
 .jumbotron .text h3::after{
 	content: '';
 	display: block;
-	border-right: 7px solid var(--lightpurple);
+	
 	width: 5px;
 }
 .jumbotron .sosial-media a{
@@ -148,7 +148,8 @@
 }
 /*About*/
 #about{
-	padding-bottom: 4rem;
+	padding-bottom: 20rem;
+	
 }
 .text-about{
 	padding-top: 5rem;
@@ -165,7 +166,7 @@
 	border-bottom: 7px solid var(--purple);
 	width: 20%;
 	padding-bottom: 2px;
-	margin-bottom: -9px;
+	margin-bottom: 59px;
 }
 .text-about span{
 	color: var(--purple);
@@ -401,7 +402,7 @@ footer{
 	.jumbotron .text h3::after{
 		content: '';
 		display: block;
-		border-right: 7px solid var(--lightpurple);
+		
 		width: 4%;
 	}
 	.jumbotron .sosial-media a{
